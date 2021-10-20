@@ -35,7 +35,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                   
+
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -45,17 +45,29 @@
         </div>
     </nav>
 
-    <div class="Container my-3">
+    <div class="container my-3">
         <h1>Welcome to Magic Notes</h1>
         <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Add a NOte</h5>
-                <div class="form-group" >
-                    
+                <h5 class="card-title">Add a Note</h5>
+                <div class="form-group">
+                    <textarea class="form-group" placeholder="Leave a comment here" id="Addtxt" rows="3"> 
+                    </textarea>
                 </div>
+                <button class="btn btn-primary" id="Addbtn">Add Notes</button>
             </div>
         </div>
+        <hr>
+        <h1>Your Notes</h1>
+        <hr>
+
     </div>
+
+    <div id="notes" class="row container-fluid"></div>
+
+
+
+    <script src="project.js"></script>
 
 
 
